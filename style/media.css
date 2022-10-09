@@ -1,0 +1,57 @@
+@media(prefers-color-scheme: dark){
+    :root{
+        --primary-blackground: #151437 ;
+        --primary-text-color: #e5e5e5 ;
+    }
+    .logo::before{
+        content: url('../images/logo-light.png');
+    }
+}
+@media(max-width: 1400px) {
+    .shape_1{
+        top: -200px;
+    }
+    .shape_2{
+        top: -50px;
+    }
+}
+@media (max-widht: 1200px){
+    .works_tab{
+        height: 65px;
+    }
+    .works_img{
+        max-height: 348px;
+    }
+}
+@media(max-widht: 992px) {
+    .shape{
+        display: none;
+    }
+    .slider-left_icon{
+        margin-bottom: 20px;
+    }
+    .works_item{
+        width: 50%;
+    }
+    .works__items:first-child .works_tab{
+    border-radius: 8px 0 0 0 ;
+    }
+    .works__items:last-child .works_tab{
+        border-radius: 0 0 8px 0 ;
+    }
+    .works__items:nth-child(2) .works_tab{
+        border-radius: 0 8px 0 0 ;
+        }
+        .works__items:first-child .works_tab{
+        border-radius: 0 0 0 8px ;
+        }
+}
+@media( max-width: 768px) {
+    .rectangle{
+        display: none;
+    }
+    .footer__contact{
+        
+    }
+}
+
